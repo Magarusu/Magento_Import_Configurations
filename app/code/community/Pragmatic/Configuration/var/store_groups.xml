@@ -1,0 +1,7 @@
+<store_groups>
+    <store_group>
+        <website_code>demo_website</website_code>
+        <name>Demo Store Group</name>
+        <root_category>Default Category</root_category>
+    </store_group>
+</store_groups>

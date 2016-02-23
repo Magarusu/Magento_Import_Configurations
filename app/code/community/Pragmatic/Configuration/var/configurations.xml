@@ -1,0 +1,16 @@
+<configurations>
+    <config>
+        <path>web/secure/base_url</path>
+        <value>https://magento.dev/</value>
+        <store_code>demo_store_en</store_code>
+    </config>
+    <config>
+        <path>web/secure/base_url</path>
+        <value>https://magento.dev/</value>
+        <website_code>demo_website</website_code>
+    </config>
+    <config>
+        <path>web/secure/base_url</path>
+        <value>https://magento.dev/</value>
+    </config>
+</configurations>

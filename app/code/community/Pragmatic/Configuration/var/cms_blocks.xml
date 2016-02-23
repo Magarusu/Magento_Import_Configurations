@@ -1,0 +1,30 @@
+<cms_blocks>
+    <block>
+        <title>Block Demo One</title>
+        <identifier>demo_one</identifier>
+        <status>Enabled</status>
+        <content><![CDATA[
+<div class="block-title">
+<h2>Block Demo One</h2>
+</div>
+<ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+</ul>]]></content>
+    </block>
+    <block>
+        <title>Block Demo Two</title>
+        <identifier>demo-two</identifier>
+        <status>1</status>
+        <content><![CDATA[
+<div class="block-title">
+<h2>Block Demo Two</h2>
+</div>
+<ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+</ul>]]></content>
+    </block>
+</cms_blocks>

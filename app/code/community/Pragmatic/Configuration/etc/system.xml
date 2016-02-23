@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <pragmatic translate="label" module="pragmatic_configuration">
+            <label>Pragmatic</label>
+            <sort_order>400</sort_order>
+        </pragmatic>
+    </tabs>
+    <sections>
+        <pragmatic_configuration translate="label" module="pragmatic_configuration">
+            <label>Import Configuration</label>
+            <tab>pragmatic</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <import translate="label" module="pragmatic_configuration">
+                    <label>Import</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <directory>
+                            <label>Import Directory</label>
+                            <comment>
+                                <![CDATA[Directory containing files with configurations.]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </directory>
+                        <categories>
+                            <label>Import Categories</label>
+                            <comment>
+                                <![CDATA[Click this button to import all categories.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <action>importCategories</action>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </categories>
+                        <stores>
+                            <label>Import Stores</label>
+                            <comment>
+                                <![CDATA[Click this button to import all stores.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <action>importStores</action>
+                            <sort_order>200</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </stores>
+                        <configurations>
+                            <label>Import Configurations</label>
+                            <comment>
+                                <![CDATA[Click this button to import all configurations.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <action>importConfigurations</action>
+                            <sort_order>300</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </configurations>
+                        <blocks>
+                            <label>Import Blocks</label>
+                            <comment>
+                                <![CDATA[Click this button to import all blocks.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <action>importBlocks</action>
+                            <sort_order>400</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </blocks>
+                        <pages>
+                            <label>Import Pages</label>
+                            <comment>
+                                <![CDATA[Click this button to import all pages.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <action>importPages</action>
+                            <sort_order>500</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </pages>
+                        <everything>
+                            <label>Import Everything</label>
+                            <comment>
+                                <![CDATA[Click this button to import all settings.]]>
+                            </comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>pragmatic_configuration/adminhtml_import_button</frontend_model>
+                            <sort_order>1000</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </everything>
+                    </fields>
+                </import>
+            </groups>
+        </pragmatic_configuration>
+    </sections>
+</config>

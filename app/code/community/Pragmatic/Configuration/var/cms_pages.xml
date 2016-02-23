@@ -1,0 +1,34 @@
+<cms_pages>
+    <page>
+        <title>Home page</title>
+        <url_key>home_example</url_key>
+        <status>Enabled</status>
+        <layout>two_columns_right</layout>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <stores>
+            <store>default</store>
+        </stores>
+        <content><![CDATA[
+<div class="page-title">
+<h2>Home Page</h2>
+</div>
+<ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+</ul>
+]]></content>
+    </page>
+    <page>
+        <title>Home page</title>
+        <url_key>home_demo</url_key>
+        <status>Enabled</status>
+        <layout>one_column</layout>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <store>admin</store>
+        <content><![CDATA[
+<div class="page-title">
+<h2>Home Page</h2>
+</div>]]></content>
+    </page>
+</cms_pages>

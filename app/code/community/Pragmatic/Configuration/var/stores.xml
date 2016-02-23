@@ -1,0 +1,14 @@
+<stores>
+    <store>
+        <group_name>Demo Store Group</group_name>
+        <code>demo_store_en</code>
+        <name>Demo Store EN</name>
+        <status>Enabled</status>
+    </store>
+    <store>
+        <group_name>Demo Store Group</group_name>
+        <code>demo_store_ro</code>
+        <name>Demo Store RO</name>
+        <status>Enabled</status>
+    </store>
+</stores>
