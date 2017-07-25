@@ -68,7 +68,7 @@
     <default>
         <pragmatic_configuration>
             <import>
-                <directory><![CDATA[app/code/local/Pragmatic/Configuration/var/]]></directory>
+                <directory><![CDATA[app/code/community/Pragmatic/Configuration/var/]]></directory>
             </import>
         </pragmatic_configuration>
     </default>
