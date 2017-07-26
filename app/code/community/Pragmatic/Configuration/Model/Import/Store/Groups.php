@@ -53,7 +53,9 @@ class Pragmatic_Configuration_Model_Import_Store_Groups extends Mage_Core_Model_
             ));
         }
 
-        if ($id = $this->load($storeGroup['name'], 'name')->getId()) {
+        if (isset($storeGroup['id']) && $this->load($storeGroup['id'])) {
+            $storeGroup['group_id'] = $storeGroup['id'];
+        } elseif ($id = $this->load($storeGroup['name'], 'name')->getId()) {
             $storeGroup['group_id'] = $id;
         }
 
